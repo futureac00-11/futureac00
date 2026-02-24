@@ -10,6 +10,10 @@
 .ssh/
 **/.ssh/
 
+# Agent state / personal data
+memory/
+.openclaw/
+
 # Runtime / logs
 *.log
 logs/
@@ -17,7 +21,3 @@ tmp/
 cache/
 __pycache__/
 *.pyc
-
-# OpenClaw state (se contiene dati)
-memory/
-.openclaw/
