@@ -1,0 +1,23 @@
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# SSH
+.ssh/
+**/.ssh/
+
+# Runtime / logs
+*.log
+logs/
+tmp/
+cache/
+__pycache__/
+*.pyc
+
+# OpenClaw state (se contiene dati)
+memory/
+.openclaw/
