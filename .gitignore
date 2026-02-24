@@ -10,11 +10,11 @@
 .ssh/
 **/.ssh/
 
-# Agent state / personal data
+# Agent state
 memory/
 .openclaw/
 
-# Runtime / logs
+# Runtime
 *.log
 logs/
 tmp/
